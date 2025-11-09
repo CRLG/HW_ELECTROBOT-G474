@@ -4,4 +4,5 @@
   (lib (name "CRLG-Passive")(type "KiCad")(uri "${KIPRJMOD}/ext/KICAD_LIB/symbols/CRLG-Passive.kicad_sym")(options "")(descr ""))
   (lib (name "CRLG-Connectors")(type "KiCad")(uri "${KIPRJMOD}/ext/KICAD_LIB/symbols/CRLG-Connectors.kicad_sym")(options "")(descr ""))
   (lib (name "CRLG-CPU")(type "KiCad")(uri "${KIPRJMOD}/ext/KICAD_LIB/symbols/CRLG-CPU.kicad_sym")(options "")(descr ""))
+  (lib (name "CRLG_Transistors")(type "KiCad")(uri "${KIPRJMOD}/ext/KICAD_LIB/symbols/CRLG_Transistors.kicad_sym")(options "")(descr ""))
 )
