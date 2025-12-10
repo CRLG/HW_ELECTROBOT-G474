@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "af93ed64-e7a5-4b93-b5d9-175866847179")
 	(paper "A4")
+	(title_block
+		(title "Electrobot G474")
+		(rev "V1.0")
+	)
 	(lib_symbols
 		(symbol "CRLG-CPU:Nucleo64-STM32G474RE"
 			(pin_names
@@ -3626,6 +3630,251 @@
 				)
 			)
 		)
+		(symbol "Jumper:SolderJumper_3_Open"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_3_Open"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 3-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Solder Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_3_Open_0_1"
+				(arc
+					(start -1.016 1.016)
+					(mid -2.0276 0)
+					(end -1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 1.016)
+					(mid -2.0276 0)
+					(end -1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.508 1.016)
+					(end 0.508 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 -1.016)
+					(mid 2.0276 0)
+					(end 1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 -1.016)
+					(mid 2.0276 0)
+					(end 1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers hide)
 			(pin_names
@@ -5857,10 +6106,6 @@
 		(uuid "f9143037-d760-4e3b-af0e-63c7518298ed")
 	)
 	(no_connect
-		(at 161.29 161.29)
-		(uuid "01268f02-50c9-4cde-9452-b0174c3ee427")
-	)
-	(no_connect
 		(at 110.49 173.99)
 		(uuid "119b36f1-d919-483f-ad90-91edd2162cfd")
 	)
@@ -5885,7 +6130,7 @@
 		(uuid "39ca6527-daa3-461e-a5ad-2f62614c3714")
 	)
 	(no_connect
-		(at 161.29 176.53)
+		(at 110.49 191.77)
 		(uuid "3db3d7f4-07a5-4a63-b28e-3a604f0abdf8")
 	)
 	(no_connect
@@ -5895,6 +6140,10 @@
 	(no_connect
 		(at 78.74 168.91)
 		(uuid "50db70a5-cc11-479e-8b16-88ee03866501")
+	)
+	(no_connect
+		(at 110.49 194.31)
+		(uuid "52de05ca-1999-4fe3-80c4-cf74ca6f9ce9")
 	)
 	(no_connect
 		(at 27.94 166.37)
@@ -5913,12 +6162,12 @@
 		(uuid "70458ea7-56da-4740-9a73-d4ad3f8541e0")
 	)
 	(no_connect
-		(at 110.49 161.29)
-		(uuid "86c1af93-03fd-4ec2-8c58-0694422f47f0")
+		(at 27.94 156.21)
+		(uuid "7b18f548-7b87-4cc5-8b75-952f8e7b310e")
 	)
 	(no_connect
-		(at 161.29 173.99)
-		(uuid "9b7fbf16-c74e-458c-bf5e-77a5b719ea34")
+		(at 110.49 161.29)
+		(uuid "86c1af93-03fd-4ec2-8c58-0694422f47f0")
 	)
 	(no_connect
 		(at 161.29 156.21)
@@ -5941,7 +6190,7 @@
 		(uuid "e8a3aef7-aa17-4aba-97fb-d7ecdaf3a7c0")
 	)
 	(no_connect
-		(at 161.29 148.59)
+		(at 110.49 151.13)
 		(uuid "ee28d154-30db-46d8-878d-bf121eaa8f07")
 	)
 	(no_connect
@@ -5957,6 +6206,16 @@
 			(type default)
 		)
 		(uuid "008b2982-775a-4a8e-8f33-0107d0f35058")
+	)
+	(wire
+		(pts
+			(xy 52.07 62.23) (xy 64.77 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03bed995-8e7b-459b-866d-9d1c5198eca4")
 	)
 	(wire
 		(pts
@@ -6190,7 +6449,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 109.22) (xy 34.29 109.22)
+			(xy 22.86 119.38) (xy 34.29 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6340,7 +6599,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 121.92) (xy 58.42 121.92)
+			(xy 22.86 110.49) (xy 34.29 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6390,6 +6649,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 57.15) (xy 64.77 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36c42c68-1620-495d-be76-06bd2ce6e634")
+	)
+	(wire
+		(pts
 			(xy 219.71 158.75) (xy 219.71 160.02)
 		)
 		(stroke
@@ -6400,7 +6669,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 111.76) (xy 58.42 111.76)
+			(xy 48.26 121.92) (xy 59.69 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6470,7 +6739,7 @@
 	)
 	(wire
 		(pts
-			(xy 13.97 156.21) (xy 27.94 156.21)
+			(xy 13.97 173.99) (xy 27.94 173.99)
 		)
 		(stroke
 			(width 0)
@@ -6507,6 +6776,16 @@
 			(type default)
 		)
 		(uuid "3d406715-4864-49c8-8fe4-f8b2a3acd23b")
+	)
+	(wire
+		(pts
+			(xy 52.07 52.07) (xy 64.77 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d95d410-4155-4e2e-ba6e-d3245dba9bcf")
 	)
 	(wire
 		(pts
@@ -6650,7 +6929,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 106.68) (xy 34.29 106.68)
+			(xy 22.86 116.84) (xy 34.29 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6790,7 +7069,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 111.76) (xy 34.29 111.76)
+			(xy 22.86 121.92) (xy 34.29 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6807,16 +7086,6 @@
 			(type default)
 		)
 		(uuid "591a93d4-7e3f-4037-b9ce-2a9fcca6aefb")
-	)
-	(wire
-		(pts
-			(xy 96.52 151.13) (xy 110.49 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5977d933-93ff-46cb-91ce-35b45125f8e2")
 	)
 	(wire
 		(pts
@@ -6930,7 +7199,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 106.68) (xy 58.42 106.68)
+			(xy 48.26 116.84) (xy 59.69 116.84)
 		)
 		(stroke
 			(width 0)
@@ -7040,7 +7309,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 191.77) (xy 110.49 191.77)
+			(xy 161.29 173.99) (xy 175.26 173.99)
 		)
 		(stroke
 			(width 0)
@@ -7250,7 +7519,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 119.38) (xy 58.42 119.38)
+			(xy 22.86 107.95) (xy 34.29 107.95)
 		)
 		(stroke
 			(width 0)
@@ -7320,7 +7589,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 116.84) (xy 34.29 116.84)
+			(xy 48.26 105.41) (xy 59.69 105.41)
 		)
 		(stroke
 			(width 0)
@@ -7380,7 +7649,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 119.38) (xy 34.29 119.38)
+			(xy 48.26 107.95) (xy 59.69 107.95)
 		)
 		(stroke
 			(width 0)
@@ -7570,6 +7839,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 161.29) (xy 175.26 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7f796a2-e3e6-4c58-93da-d8203acff093")
+	)
+	(wire
+		(pts
 			(xy 25.4 91.44) (xy 38.1 91.44)
 		)
 		(stroke
@@ -7730,7 +8009,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 121.92) (xy 34.29 121.92)
+			(xy 48.26 110.49) (xy 59.69 110.49)
 		)
 		(stroke
 			(width 0)
@@ -7870,7 +8149,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 109.22) (xy 58.42 109.22)
+			(xy 48.26 119.38) (xy 59.69 119.38)
 		)
 		(stroke
 			(width 0)
@@ -7957,16 +8236,6 @@
 			(type default)
 		)
 		(uuid "dab8beff-ca70-4df1-a8c4-d925d8fc70e5")
-	)
-	(wire
-		(pts
-			(xy 13.97 173.99) (xy 27.94 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbdfa7b5-1460-4d5a-9055-c181e84f7f35")
 	)
 	(wire
 		(pts
@@ -8120,6 +8389,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 148.59) (xy 175.26 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee0362f0-5324-4921-9b06-cbae61c8cce1")
+	)
+	(wire
+		(pts
 			(xy 149.86 90.17) (xy 149.86 91.44)
 		)
 		(stroke
@@ -8150,7 +8429,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 116.84) (xy 58.42 116.84)
+			(xy 22.86 105.41) (xy 34.29 105.41)
 		)
 		(stroke
 			(width 0)
@@ -8170,7 +8449,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 194.31) (xy 110.49 194.31)
+			(xy 161.29 176.53) (xy 175.26 176.53)
 		)
 		(stroke
 			(width 0)
@@ -8578,6 +8857,16 @@
 		)
 		(uuid "97fdc417-68d2-4ea7-954e-0ac974ba8600")
 	)
+	(text "RX/TX\nSTLINK"
+		(exclude_from_sim no)
+		(at 105.41 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "99f932e7-08b3-48a9-aafc-33273bb2d495")
+	)
 	(text "Servo moteurs"
 		(exclude_from_sim no)
 		(at 17.526 100.33 0)
@@ -8599,6 +8888,17 @@
 			(justify left bottom)
 		)
 		(uuid "ac530d67-4e4f-48e5-a0f4-919bceddf60c")
+	)
+	(text "Choix de la tension\nde sortie MOSFET"
+		(exclude_from_sim no)
+		(at 30.48 60.706 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b01103e4-fd0f-4758-91c0-128de3b7e6fb")
 	)
 	(text "LED debug"
 		(exclude_from_sim no)
@@ -8654,6 +8954,18 @@
 			(justify left bottom)
 		)
 		(uuid "e1424fab-72f1-434f-b801-f3a13f7caf17")
+	)
+	(text "RS: 193-9786\nFarnell: 3132424\nMouser: 511-NUCLEO-G474RE\nDigikey: 497-19491-ND"
+		(exclude_from_sim no)
+		(at 58.928 138.43 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 255 123 22 1)
+			)
+			(justify left)
+		)
+		(uuid "e7dde63e-78b9-4d1d-a775-3de364a58998")
 	)
 	(text "Molex KK 2.54mm."
 		(exclude_from_sim no)
@@ -8895,6 +9207,17 @@
 		)
 		(uuid "16cce3f8-347f-42e7-a588-d9d0ff35928f")
 	)
+	(label "+Vmosfet"
+		(at 55.88 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17589859-06a6-4a96-b015-59dd40926a99")
+	)
 	(label "Mot1_Sens2"
 		(at 25.4 77.47 0)
 		(fields_autoplaced yes)
@@ -8950,8 +9273,8 @@
 		)
 		(uuid "23311819-9b71-4984-a8ec-32654a1fd3f7")
 	)
-	(label "LED1"
-		(at 99.06 191.77 0)
+	(label "LED2"
+		(at 162.56 173.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8994,8 +9317,8 @@
 		)
 		(uuid "2b50ae16-381d-4bf0-ab33-13877d7655b5")
 	)
-	(label "Servo1_PWM"
-		(at 22.86 106.68 0)
+	(label "Servo2_PWM"
+		(at 22.86 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9016,7 +9339,7 @@
 		)
 		(uuid "32e39d89-a573-42dc-a106-e5e588ee2533")
 	)
-	(label "Servo3_PWM"
+	(label "Servo4_PWM"
 		(at 97.79 179.07 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9038,8 +9361,8 @@
 		)
 		(uuid "34c583ca-01d4-4435-8053-4fbed194435c")
 	)
-	(label "Servo3_PWM"
-		(at 46.99 106.68 0)
+	(label "Servo4_PWM"
+		(at 48.26 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9061,7 +9384,7 @@
 		(uuid "38914f2a-bb39-4d89-963f-267dbd0e502c")
 	)
 	(label "Cde_Mosfet"
-		(at 15.24 156.21 0)
+		(at 15.24 173.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9071,7 +9394,7 @@
 		)
 		(uuid "39ca080d-591c-497f-a211-b9c93aa88e17")
 	)
-	(label "Mot1_Sens2"
+	(label "Mot1_Sens1"
 		(at 97.79 168.91 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9082,8 +9405,8 @@
 		)
 		(uuid "3b4da5ca-8354-4920-afcd-b0e606c2c134")
 	)
-	(label "LED2"
-		(at 99.06 194.31 0)
+	(label "LED1"
+		(at 162.56 176.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9104,7 +9427,18 @@
 		)
 		(uuid "3d6bfa2e-07f1-4602-a2ff-7f24aaecb101")
 	)
-	(label "Servo4_PWM"
+	(label "+6.5V"
+		(at 55.88 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3db79ff6-3879-4c80-ab97-2550e0b4c2eb")
+	)
+	(label "Servo1_PWM"
 		(at 162.56 168.91 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9138,7 +9472,7 @@
 		(uuid "46e7795e-fb62-43f1-8973-918ff0867740")
 	)
 	(label "+6.5V"
-		(at 22.86 109.22 0)
+		(at 22.86 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9225,7 +9559,7 @@
 		)
 		(uuid "501982bb-5513-4aee-8f02-1382ad398772")
 	)
-	(label "Mot3_Sens2"
+	(label "Mot3_Sens1"
 		(at 15.24 194.31 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9291,7 +9625,7 @@
 		)
 		(uuid "568d238c-d3f6-43f0-af3c-773030adeedb")
 	)
-	(label "Mot1_Sens1"
+	(label "Mot1_Sens2"
 		(at 97.79 166.37 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9346,7 +9680,7 @@
 		)
 		(uuid "5d38766e-3702-48ea-91ff-cae9603aaa5d")
 	)
-	(label "Mot3_Sens1"
+	(label "Mot3_Sens2"
 		(at 15.24 191.77 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9358,7 +9692,7 @@
 		(uuid "60eaa2b6-0ad0-4665-a7ce-170ddddfbc01")
 	)
 	(label "GND"
-		(at 46.99 111.76 0)
+		(at 48.26 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9379,7 +9713,7 @@
 		)
 		(uuid "628886e7-758e-40e0-825a-8e33635761af")
 	)
-	(label "Servo1_PWM"
+	(label "Servo3_PWM"
 		(at 80.01 184.15 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9511,6 +9845,17 @@
 		)
 		(uuid "7c2469bb-e0e6-4ef3-a4b7-6a750a37be63")
 	)
+	(label "Codeur1_B"
+		(at 162.56 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c8fd2f0-c794-4bb8-8f82-cf1e604b2c26")
+	)
 	(label "+5V"
 		(at 118.11 21.59 0)
 		(fields_autoplaced yes)
@@ -9533,8 +9878,8 @@
 		)
 		(uuid "7e5afbec-3a02-4358-99dc-f6295ca2c811")
 	)
-	(label "Servo4_PWM"
-		(at 46.99 116.84 0)
+	(label "Servo1_PWM"
+		(at 22.86 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9588,7 +9933,7 @@
 		)
 		(uuid "8a14268b-2832-40e6-9b6b-cad84b36486c")
 	)
-	(label "VBAT"
+	(label "+Vmosfet"
 		(at 87.63 40.64 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9655,7 +10000,7 @@
 		(uuid "96f42eb3-6bdd-498f-a91c-a741d6c375f1")
 	)
 	(label "GND"
-		(at 46.99 121.92 0)
+		(at 22.86 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9664,17 +10009,6 @@
 			(justify left bottom)
 		)
 		(uuid "9735f850-89eb-4ef3-ad46-e951970d29b4")
-	)
-	(label "Codeur1_B"
-		(at 15.24 173.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "976324a4-4de0-47e5-8000-fb149da5f10d")
 	)
 	(label "RS232_1_TX"
 		(at 16.51 148.59 0)
@@ -9741,6 +10075,17 @@
 			(justify left bottom)
 		)
 		(uuid "ab7c8176-c5a3-41e9-b4aa-ab53f042214e")
+	)
+	(label "DRAIN"
+		(at 95.25 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae303ed4-8246-433b-a9c3-a77ad89349b7")
 	)
 	(label "GND"
 		(at 170.18 46.99 0)
@@ -9930,7 +10275,7 @@
 		(uuid "cb273851-80c3-4f87-a16e-65adf3ba832a")
 	)
 	(label "GND"
-		(at 22.86 111.76 0)
+		(at 22.86 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9941,7 +10286,7 @@
 		(uuid "cec66b31-655b-4856-8f78-14173639c81b")
 	)
 	(label "+6.5V"
-		(at 22.86 119.38 0)
+		(at 48.26 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9974,7 +10319,7 @@
 		(uuid "d5733eda-c881-4213-aec8-e457dcb36ac3")
 	)
 	(label "GND"
-		(at 22.86 121.92 0)
+		(at 48.26 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10007,7 +10352,7 @@
 		(uuid "e720e504-82d2-473f-b922-9dc7358b4a17")
 	)
 	(label "Etor2"
-		(at 99.06 151.13 0)
+		(at 162.56 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10039,6 +10384,17 @@
 		)
 		(uuid "e85d8cbe-24e0-4db2-b5fa-df1b655b0b53")
 	)
+	(label "VBAT"
+		(at 55.88 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e88fe3bc-013c-4940-b3a7-e4e515519d7e")
+	)
 	(label "Codeur2_A"
 		(at 260.35 95.25 0)
 		(fields_autoplaced yes)
@@ -10062,7 +10418,7 @@
 		(uuid "e8fb7878-93b8-4504-a3c7-a613671506f0")
 	)
 	(label "+6.5V"
-		(at 46.99 109.22 0)
+		(at 48.26 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10127,8 +10483,8 @@
 		)
 		(uuid "f1099709-c4f6-404a-b109-48e29d742711")
 	)
-	(label "Servo2_PWM"
-		(at 22.86 116.84 0)
+	(label "Servo3_PWM"
+		(at 48.26 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10161,7 +10517,7 @@
 		(uuid "fbb2204e-048a-4599-9fdf-a41e5e0dfe10")
 	)
 	(label "+6.5V"
-		(at 46.99 119.38 0)
+		(at 22.86 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14806,7 +15162,7 @@
 	)
 	(symbol
 		(lib_id "CRLG-Connectors:Conn_01x03")
-		(at 63.5 119.38 0)
+		(at 39.37 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14814,7 +15170,7 @@
 		(dnp no)
 		(uuid "9a72c0e6-8171-49f7-b0dc-70d39beaf90b")
 		(property "Reference" "J25"
-			(at 65.532 119.4816 0)
+			(at 41.402 108.0516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14823,7 +15179,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 65.532 120.6246 0)
+			(at 41.402 109.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14833,7 +15189,7 @@
 			)
 		)
 		(property "Footprint" "Servomotors:Servomotor-3x254"
-			(at 63.5 119.38 0)
+			(at 39.37 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14842,7 +15198,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 119.38 0)
+			(at 39.37 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14851,7 +15207,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 119.38 0)
+			(at 39.37 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14948,6 +15304,80 @@
 			(project "Electrobot-G474"
 				(path "/af93ed64-e7a5-4b93-b5d9-175866847179"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 52.07 57.15 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f0bd3a2-7fa4-4d7a-a9ce-2f8a7a7f9a5c")
+		(property "Reference" "JP1"
+			(at 49.53 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 49.53 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 52.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 52.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f25f4362-7c9a-4250-bed6-965e19936e8d")
+		)
+		(pin "1"
+			(uuid "7dd43eb4-b8e0-410b-94fe-cb84b8da6696")
+		)
+		(pin "3"
+			(uuid "cf99d56a-9d3b-4358-9184-1a55bcacf491")
+		)
+		(instances
+			(project "Electrobot-G474"
+				(path "/af93ed64-e7a5-4b93-b5d9-175866847179"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -15647,7 +16077,7 @@
 	)
 	(symbol
 		(lib_id "CRLG-Connectors:Conn_01x03")
-		(at 39.37 109.22 0)
+		(at 39.37 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15655,7 +16085,7 @@
 		(dnp no)
 		(uuid "b32b1a14-f124-4040-8509-14fe23a24eae")
 		(property "Reference" "J17"
-			(at 41.402 109.3216 0)
+			(at 41.402 119.4816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15664,7 +16094,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 41.402 110.4646 0)
+			(at 41.402 120.6246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15674,7 +16104,7 @@
 			)
 		)
 		(property "Footprint" "Servomotors:Servomotor-3x254"
-			(at 39.37 109.22 0)
+			(at 39.37 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15683,7 +16113,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 109.22 0)
+			(at 39.37 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15692,7 +16122,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 109.22 0)
+			(at 39.37 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16268,7 +16698,7 @@
 	)
 	(symbol
 		(lib_id "CRLG-Connectors:Conn_01x03")
-		(at 63.5 109.22 0)
+		(at 64.77 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16276,7 +16706,7 @@
 		(dnp no)
 		(uuid "ccfdc812-b918-479f-8b64-1a625a57985f")
 		(property "Reference" "J18"
-			(at 65.532 109.3216 0)
+			(at 66.802 119.4816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16285,7 +16715,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 65.532 110.4646 0)
+			(at 66.802 120.6246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16295,7 +16725,7 @@
 			)
 		)
 		(property "Footprint" "Servomotors:Servomotor-3x254"
-			(at 63.5 109.22 0)
+			(at 64.77 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16304,7 +16734,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 109.22 0)
+			(at 64.77 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16313,7 +16743,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 109.22 0)
+			(at 64.77 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16413,7 +16843,7 @@
 	)
 	(symbol
 		(lib_id "CRLG-Connectors:Conn_01x03")
-		(at 39.37 119.38 0)
+		(at 64.77 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16421,7 +16851,7 @@
 		(dnp no)
 		(uuid "d4b3b1aa-7b59-4bdb-b481-728371170a8e")
 		(property "Reference" "J24"
-			(at 41.402 119.4816 0)
+			(at 66.802 108.0516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16430,7 +16860,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 41.402 120.6246 0)
+			(at 66.802 109.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16440,7 +16870,7 @@
 			)
 		)
 		(property "Footprint" "Servomotors:Servomotor-3x254"
-			(at 39.37 119.38 0)
+			(at 64.77 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16449,7 +16879,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 119.38 0)
+			(at 64.77 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16458,7 +16888,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 119.38 0)
+			(at 64.77 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
