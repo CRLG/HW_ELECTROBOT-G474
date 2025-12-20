@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Electrobot G474")
-		(rev "V1.0")
+		(rev "V1.1")
 	)
 	(lib_symbols
 		(symbol "CRLG-CPU:Nucleo64-STM32G474RE"
@@ -8672,7 +8672,7 @@
 		)
 		(uuid "26a2ef63-13f1-4974-af70-842b47f4b15f")
 	)
-	(text "Pour réduction 5V->3.3V (R34=10k / R35=18k)\nSans réduction du niveau (R34=0 / R35 non montée)\n\n"
+	(text "Pour réduction 5V->3.3V (R19=10k / R22=18k)\nSans réduction du niveau (R19=0 / R22 non montée)\n\n"
 		(exclude_from_sim no)
 		(at 82.804 120.904 0)
 		(effects
@@ -8801,7 +8801,7 @@
 		)
 		(uuid "72089510-31a7-4a65-be68-431f9d70e291")
 	)
-	(text "Pour réduction 5V->3.3V (R34=10k / R35=18k)\nSans réduction du niveau (R34=0 / R35 non montée)\n\n"
+	(text "Pour réduction 5V->3.3V (R7=10k / R11=18k)\nSans réduction du niveau (R7=0 / R11 non montée)\n\n"
 		(exclude_from_sim no)
 		(at 82.804 90.424 0)
 		(effects
